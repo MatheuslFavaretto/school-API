@@ -26,3 +26,9 @@ class ListOfRegistrationsSerializer(serializers.ModelSerializer):
         fields = ['course', 'period']
     def get_period(sefl, obj):
         return obj.get_period_display()
+
+class StudentListRegistrationSerializer(serializers.ModelSerializer):
+    Student_name = serializers.ReadOnlyField(source='student.name')
+    class Meta:
+        model = Registration
+        fields = ['student_name']
