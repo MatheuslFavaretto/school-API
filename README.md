@@ -1,10 +1,11 @@
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![image](https://camo.githubusercontent.com/578ca1e4c439cf5a1906e5cdb6ab4b7531537fc30fe7b760e1f04f7ada18a1d7/68747470733a2f2f7777772e646a616e676f2d726573742d6672616d65776f726b2e6f72672f696d672f6c6f676f2e706e672376697472696e65646576)
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 # Sobre o projeto
 
-Criar essa API aqui, uma API de uma escola, onde é capaz de criar alunos, visualizar os dados desse aluno, atualizar tanto alunos, como curso, e vincular esses nossos dois recursos, criando, assim, as matrículas dos alunos.
+Criar uma API de uma escola, onde é capaz de criar alunos, visualizar os dados desse aluno, atualizar tanto alunos, como curso, e vincular esses nossos dois recursos, criando, assim, as matrículas dos alunos.
 
 # Como executá-lo?
 
@@ -23,6 +24,8 @@ Ative seu ambiente virtual com o seguinte comando(linux):source venv/bin/activat
 Instale o Django nesse ambiente virtualizado:pip install django
 ```
 
+Apos isso ja esta pronto apara executar o servidor!
+
 ### Rodando a aplicação
 
 ```
@@ -33,4 +36,6 @@ python manage.py runserver
 Feito!
 
 # Demonstração em imagem do projeto
+
+
 
