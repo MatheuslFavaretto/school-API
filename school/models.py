@@ -9,11 +9,11 @@ class Student(models.Model):
     def __str__(self):
         return self.name
 
-class course(models.Model):
+class Course(models.Model):
     LEVEL = (
         ('B', 'Basic'),
         ('I', 'Intermediary'),
-        ('A', 'Advanced'),
+        ('A', 'Advanced')
     )
     Code_course = models.CharField(max_length=10)
     description = models.CharField(max_length=100)
