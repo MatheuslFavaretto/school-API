@@ -33,3 +33,4 @@ class Registration(models.Model):
         course = models.ForeignKey(Course, on_delete=models.CASCADE)
         period = models.CharField(max_length=1, choices=PERIOD, blank=False, null=False, default='A')
 
+
